@@ -16,3 +16,7 @@ GIT TEAMWORK
 4) git push origin <branch_name>
 
 	- pushes branch branch_name into remote repository
+
+5) git remote add origin _________
+
+	- url of the git repository to push into
