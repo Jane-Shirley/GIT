@@ -1,0 +1,18 @@
+GIT TEAMWORK
+
+1) git clone <remote_location> <clone_name>
+
+	- clones repository in remote_location into clone_name folder
+
+2) git remote -v
+
+	- lists Git project's remotes
+
+3) git fetch
+
+	- fetches any changes from the remote repository
+	- only fetches changes, have to be merged later
+
+4) git push origin <branch_name>
+
+	- pushes branch branch_name into remote repository

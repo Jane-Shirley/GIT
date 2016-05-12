@@ -1,0 +1,43 @@
+GIT BASIC WORKFLOW
+	
+	Working directory --> Staging area --> Git repository
+
+1) git init
+	
+	- make a directory a git repository
+
+2) git status
+
+	- shows the status of the repository
+
+3) git add <filename>
+
+	- stage changes to be commited
+	- add new files to be tracked
+
+   git rm --cache <filename>
+
+   	- unstage a file
+
+4) git commit
+
+	- commit changes to the repository
+	- enter commit message in terminal and press esc
+	- :wq to exit message mode
+
+   git commit -m "message"
+
+    - commit with message
+
+   git commit -a
+
+    - stage and commit changes
+
+5) git diff
+
+	- shows difference between file in current working directory and how it was before the change
+	- press q to exit diff mode
+
+6) git log
+
+	- list of all commit

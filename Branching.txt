@@ -1,0 +1,25 @@
+BRANCHING
+
+1) git branch 
+	
+	- to find out which branch you are in
+
+2) git branch <branch_name>
+
+	- create a new branch
+
+   git branch -d <branch_name>
+
+   	- deletes branch branch_name
+
+3) git checkout <branch_name>
+
+	- switch to branch branch_name
+
+4) git merge <branch_name>
+
+	- merges branch_name to the master
+
+5) git show-branch
+
+	- list of branches 

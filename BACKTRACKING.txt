@@ -1,0 +1,25 @@
+BACKTRACKING
+
+1) git show HEAD
+
+	- HEAD is the most recent commit
+
+   git checkout HEAD <filename>
+   git checkout -- <filename>
+
+   	- discards changes in the working directory
+
+   git reset HEAD filename
+
+    - 
+
+2) git reset SHA	
+
+	- first 7 letters of the SHA
+	- rolls back commits
+
+	list of commits
+	A --> B --> C --> D --> E(head)
+
+	after rolling back
+	A --> B --> C(head)
